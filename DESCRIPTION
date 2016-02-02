@@ -1,9 +1,16 @@
 Package: bingo
-Title: What the Package Does (one line, title case)
+Title: Generate Bingo Cards.
 Version: 0.0.0.9000
-Authors@R: person("Jennifer", "Bryan", role=c("aut", "cre"),
-  email = "jenny@stat.ubc.ca")
-Description: What the package does (one paragraph).
-Depends: R (>= 3.2.3)
+Authors@R: c(
+    person("Jennifer", "Bryan", , "jenny@stat.ubc.ca", c("cre", "aut")),
+    person("Dean", "Attali", , "daattali@gmail.com", "aut")
+  )
+Description: Generate bingo cards for fun and profit. Comes with built-in
+    bingo squares for SuperBowl 50, generic football, open data heartbreak,
+    and spreadsheet hell. You can also provide your own squares. Something
+    about the Shiny app once Dean makes it.
+Depends:
+    R (>= 3.2.3)
 License: MIT + file LICENSE
 LazyData: true
+RoxygenNote: 5.0.1.9000
