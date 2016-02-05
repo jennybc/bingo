@@ -1,0 +1,64 @@
+---
+output: github_document
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, echo = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "README-"
+)
+```
+
+# bingo
+
+Generate Bingo cards.
+
+Currently has built-in squares for SuperBowl 50 :football: and open data / spreadsheet craziness :chart_with_downwards_trend:.
+
+## Installation
+
+Install from github with:
+
+```{r eval = FALSE}
+# install.packages("devtools")
+devtools::install_github("jennybc/bingo")
+```
+
+## SuperBowl Example
+
+```{r fig.show = "hide"}
+library(bingo)
+
+## see some of the SuperBowl 50 squares
+tail(superbowl_50_2016())
+
+## make 8 bingo cards (SuperBowl 50 is current default)
+bc <- bingo(8)
+
+## print them to PDF
+plot(bc)
+```
+
+Here's what one would look like:
+
+![](img/bingo-01.png)
+
+## Open Data Example
+
+Attribute to <https://twitter.com/fogonwater/status/683785398112260097>
+
+```{r}
+## see some of the Open Data squares
+tail(open_data())
+
+## make a single Open Data bingo card
+bc <- bingo(bs = open_data())
+
+## print it
+plot(bc)
+```
+
+
