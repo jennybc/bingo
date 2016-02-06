@@ -32,11 +32,12 @@ bingo <- function(n_cards = 1, bs = NULL, n = 5) {
 
 #' Plot bingo cards
 #'
-#' @param bc a \code{\link{bingo}} object containing one or more bingo cards
+#' @param x a \code{\link{bingo}} object containing one or more bingo cards
 #' @param dir directory where you want to write files
 #' @param fontsize size of bingo square font
 #' @param pdf_base base of the sequential filenames for the printable bingo card
 #'   files
+#' @param ... not used
 #'
 #' @export
 #' @note Does not actually plot the cards to the graphics device
@@ -45,7 +46,8 @@ bingo <- function(n_cards = 1, bs = NULL, n = 5) {
 #' @examples
 #' bc <- bingo()
 #' plot(bc)
-plot.bingo <- function(bc, dir = ".", fontsize = 14, pdf_base = "bingo-") {
+plot.bingo <- function(x, dir = ".", fontsize = 14, pdf_base = "bingo-", ...) {
+  bc <- x
   n <- infer_n(bc)
   n_cards <- ncol(bc)
   bc_wrapped <- apply(bc, 2, wrap_it)
