@@ -1,3 +1,5 @@
+# DO NOT LOOK AT ME, I'M HIDEOUS; the code here is not well-structured
+
 library(shiny)
 library(shinyjs)
 library(bingo)
@@ -10,31 +12,21 @@ getWordsFile <- function(file) {
   getWordsText(paste(readLines(file), collapse = ","))
 }
 
-css <- "
-body > .container-fluid { margin: 0; padding: 0; }
-body {
-padding-bottom: 20px;
-}
-#form {
-background: #f9f9f9;
-padding: 10px 20px 20px;
-border-bottom: 1px solid #aaa;
-font-size: 1.2em;
-}
-#apptitle {
-margin-top: 0;
-}
-#wordsinput { margin-top: -10px; }
-#wordsinput .form-group, #wordsinput .progress {  margin-bottom: 0; }
-"
-
 ui <- fluidPage(
   useShinyjs(),
-  inlineCSS(css),
+  tags$head(
+    tags$link(href = "app.css", rel = "stylesheet")
+  ),
 
   div(
     id = "form",
     h1(id = "apptitle", "Bingo card generator"),
+    div(id = "authors",
+       "By", a("Jenny Bryan", href = "https://twitter.com/jennybryan"),
+       "and", a("Dean Attali", href = "http://deanattali.com"),
+       HTML("&bull;"),
+       "Code", a("on GitHub", href = "https://github.com/jennybc/bingo")
+    ),
     numericInput("numberToMake", "Number of cards to generate", 5, 1),
     selectInput("uploadType", "Phrase bank",
                 c("Super Bowl 2016" = "superbowl",
