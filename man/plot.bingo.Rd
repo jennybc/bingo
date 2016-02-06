@@ -4,7 +4,7 @@
 \alias{plot.bingo}
 \title{Plot bingo cards}
 \usage{
-\method{plot}{bingo}(bc, fontsize = 14, pdf_base = "bingo-")
+\method{plot}{bingo}(bc, dir = ".", fontsize = 14, pdf_base = "bingo-")
 }
 \value{
 Vector containing the filenames of all the generated cards (invisibly)

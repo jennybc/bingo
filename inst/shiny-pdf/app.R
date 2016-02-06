@@ -110,8 +110,10 @@ server <- function(input, output, session) {
 
         # generate the cards
         cards <- bingo(n_cards = input$numberToMake, bs = words, n = size)
-        filenames <- plot(cards, fontsize = input$textSize)
-        zip(file, filenames)
+        filenames <- plot(cards, dir = tempdir(), fontsize = input$textSize)
+        wd <- setwd(dirname(filenames[1]))
+        zip(file, basename(filenames))
+        setwd(wd)
       },
       error = function(err) {
         stop(err$message)
