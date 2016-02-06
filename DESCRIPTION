@@ -12,9 +12,10 @@ Depends:
     R (>= 3.2.1)
 License: MIT + file LICENSE
 LazyData: true
-RoxygenNote: 5.0.1.9000
+RoxygenNote: 5.0.1
 Suggests:
     testthat,
-    shiny
+    shiny,
+    shinyjs
 Imports:
     grid
