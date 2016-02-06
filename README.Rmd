@@ -1,5 +1,8 @@
 ---
-output: github_document
+output:
+  github_document:
+    toc: true
+    toc_depth: 2
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -16,7 +19,14 @@ knitr::opts_chunk$set(
 
 Generate Bingo cards.
 
-Currently has built-in squares for SuperBowl 50 :football: and open data / spreadsheet craziness :chart_with_downwards_trend:.
+Currently has built-in squares for SuperBowl 50 :football: and open data / spreadsheet craziness :chart_with_downwards_trend:. Or you can provide your own text for the squares.
+
+Make printable Bingo cards **without installing anything** via these Shiny apps (included in package, but also available on Dean's server):
+
+  * [PDF cards](http://daattali.com/shiny/bingo-pdf/)
+  * [HTML cards](http://daattali.com/shiny/bingo-html/)
+  
+Feel free to help us make these cards less ugly or to explore new bingo topics! PRs welcome :grin:.
 
 ## Installation
 
@@ -71,3 +81,16 @@ Here's what one looks like:
 crap <- list.files(pattern = "bingo-[0-9]+.pdf")
 file.remove(crap)
 ```
+
+## Run Shiny apps locally
+
+To run the apps we're running remotely ([PDF version](http://daattali.com/shiny/bingo-pdf/), [HTML version](http://daattali.com/shiny/bingo-html/)) on your own machine, do this:
+
+```{r eval = FALSE}
+## pdf is the default
+launch()
+
+## or go with html
+launch("html")
+```
+
