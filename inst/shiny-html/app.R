@@ -44,6 +44,11 @@ body > .container-fluid { margin: 0; padding: 0; }
 body {
 padding-bottom: 20px;
 }
+#authors {
+  margin-bottom: 15px;
+  margin-top: -5px;
+  font-style: italic;
+}
 #form {
 background: #f9f9f9;
 padding: 10px 20px 20px;
@@ -79,6 +84,12 @@ ui <- fluidPage(
     class = "noprint",
     id = "form",
     h1(id = "apptitle", "Bingo card generator"),
+    div(id = "authors",
+        "By", a("Jenny Bryan", href = "https://twitter.com/jennybryan"),
+        "and", a("Dean Attali", href = "http://deanattali.com"),
+        HTML("&bull;"),
+        "Code", a("on GitHub", href = "https://github.com/jennybc/bingo")
+    ),
     numericInput("numberToMake", "Number of cards to generate", 5, 1),
     selectInput("uploadType", "Phrase bank",
                 c("Super Bowl 2016" = "superbowl",
@@ -109,7 +120,7 @@ ui <- fluidPage(
         selectInput("size", "Number of cells", selected = "5",
                     c("3x3" = "3", "5x5" = "5", "7x7" = "7", "9x9" = "9")),
         numericInput("length", "Card size (in centimeters)", 20, 5),
-        numericInput("textSize", "Text size (in pixels)", 16, 8)
+        numericInput("textSize", "Text size (in pixels)", 14, 8)
       )
     ),
     br(),
