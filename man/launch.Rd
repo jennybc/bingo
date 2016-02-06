@@ -8,7 +8,7 @@ launch(format = c("pdf", "html"))
 }
 \arguments{
 \item{format}{Which format to generate the cards (downloadable PDF or
-orintable HTML)}
+printable HTML)}
 }
 \description{
 Launch the Shiny app that generates bingo cards

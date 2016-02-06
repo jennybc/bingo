@@ -10,7 +10,7 @@ generateCardCSS <- function(length = 10, textSize = 16) {
 
 generateCard <- function(words = LETTERS, size = 5) {
   words <- sample(words, size*size - 1)
-  middle <- size*size / 2 + 1
+  middle <- size * size / 2 + 1
   middleWord <- words[middle]
   words[middle] <- "FREE"
   words[length(words) + 1] <- middleWord
@@ -174,6 +174,7 @@ server <- function(input, output, session) {
       show("print")
 
       # Joe Cheng won't like, but I have to use reactiveValues here
+      # SAVE THE KITTENS!
       values$cardsHTML <-
         tagList(
           generateCardCSS(input$length, input$textSize),
