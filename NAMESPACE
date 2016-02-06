@@ -2,5 +2,6 @@
 
 S3method(plot,bingo)
 export(bingo)
+export(launch)
 export(open_data)
 export(superbowl_50_2016)

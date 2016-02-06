@@ -30,18 +30,24 @@ bingo <- function(n_cards = 1, bs = NULL, n = 5) {
   structure(cards, class = c("bingo", "matrix"))
 }
 
+#' @ Plot bingo cards
 #' @export
+#' @note Does not actually plot the cards to the graphics device
+#' @return Vector containing the filenames of all the generated cards (invisibly)
 plot.bingo <- function(bc, fontsize = 14, pdf_base = "bingo-") {
   n <- infer_n(bc)
   n_cards <- ncol(bc)
   bc_wrapped <- apply(bc, 2, wrap_it)
   message("Writing to file ...")
+  filenames <- c()
   for (i in seq_len(n_cards)) {
     plot_one(bc_wrapped[ , i], n = n, fontsize = fontsize)
     fname <- paste0(pdf_base, sprintf("%02d", i), ".pdf")
+    filenames <- c(filenames, fname)
     message("  ", fname)
     dev.print(pdf, fname, width = 7, height = 7)
   }
+  invisible(filenames)
 }
 
 plot_one <- function(x, n, fontsize = 14) {

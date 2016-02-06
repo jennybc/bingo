@@ -1,6 +1,6 @@
 Package: bingo
 Title: Generate Bingo Cards
-Version: 0.0.0.9000
+Version: 0.0.0.9001
 Authors@R: c(
     person("Jennifer", "Bryan", , "jenny@stat.ubc.ca", c("cre", "aut")),
     person("Dean", "Attali", , "daattali@gmail.com", "aut")
@@ -10,9 +10,11 @@ Description: Generate bingo cards for fun and profit. Comes with built-in
     and spreadsheet hell. You can also provide your own squares. Something
     about the Shiny app once Dean makes it.
 Depends:
-    R (>= 3.2.3)
+    R (>= 3.2.2)
 License: MIT + file LICENSE
 LazyData: true
-RoxygenNote: 5.0.1.9000
-Suggests: testthat
-Imports: grid
+RoxygenNote: 5.0.1
+Suggests:
+    testthat
+Imports:
+    grid
