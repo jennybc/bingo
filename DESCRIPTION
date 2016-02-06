@@ -10,7 +10,7 @@ Description: Generate bingo cards for fun and profit. Comes with built-in
     and spreadsheet hell. You can also provide your own squares. Something
     about the Shiny app once Dean makes it.
 Depends:
-    R (>= 3.2.2)
+    R (>= 3.2.1)
 License: MIT + file LICENSE
 LazyData: true
 RoxygenNote: 5.0.1
