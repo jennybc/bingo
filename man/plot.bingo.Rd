@@ -4,10 +4,11 @@
 \alias{plot.bingo}
 \title{Plot bingo cards}
 \usage{
-\method{plot}{bingo}(bc, dir = ".", fontsize = 14, pdf_base = "bingo-")
+\method{plot}{bingo}(x, dir = ".", fontsize = 14, pdf_base = "bingo-",
+  ...)
 }
 \arguments{
-\item{bc}{a \code{\link{bingo}} object containing one or more bingo cards}
+\item{x}{a \code{\link{bingo}} object containing one or more bingo cards}
 
 \item{dir}{directory where you want to write files}
 
@@ -15,6 +16,8 @@
 
 \item{pdf_base}{base of the sequential filenames for the printable bingo card
 files}
+
+\item{...}{not used}
 }
 \value{
 Vector containing the filenames of all the generated cards
