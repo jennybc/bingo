@@ -1,5 +1,6 @@
 library(shiny)
 library(shinyjs)
+library(bingo)
 
 generateCardCSS <- function(length = 10, textSize = 16) {
   tags$style(paste0(
