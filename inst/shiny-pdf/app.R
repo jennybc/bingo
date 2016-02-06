@@ -39,6 +39,7 @@ ui <- fluidPage(
     selectInput("uploadType", "Phrase bank",
                 c("Super Bowl 2016" = "superbowl",
                   "Open Data" = "opendata",
+                  "Bad Data" = "baddata",
                   "Type phrases into a box" = "box",
                   "Upload text file" = "file")),
     div(
@@ -64,7 +65,7 @@ ui <- fluidPage(
         id = "advanced",
         selectInput("size", "Number of cells", selected = "5",
                     c("3x3" = "3", "5x5" = "5")),
-        numericInput("textSize", "Text size (in pixels)", 16, 8)
+        numericInput("textSize", "Text size (in pixels)", 14, 8)
       )
     ),
     br(),
@@ -80,6 +81,7 @@ server <- function(input, output, session) {
   observe({
     submitEnabled <-
       input$uploadType == "superbowl" || input$uploadType == "opendata" ||
+      input$uploadType == "baddata" ||
       (input$uploadType == "box" && nzchar(input$wordsBox)) ||
       (input$uploadType == "file" && !is.null(input$wordsFile))
     toggleState("download", condition = submitEnabled)
@@ -95,6 +97,8 @@ server <- function(input, output, session) {
           words <- superbowl_50_2016()
         } else if (input$uploadType == "opendata") {
           words <- open_data()
+        } else if (input$uploadType == "baddata") {
+          words <- bad_data()
         } else if (input$uploadType == "box") {
           words <- getWordsText(input$wordsBox)
         } else if (input$uploadType == "file") {
