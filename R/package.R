@@ -41,11 +41,12 @@ plot.bingo <- function(bc, fontsize = 14, pdf_base = "bingo-") {
   message("Writing to file ...")
   filenames <- c()
   for (i in seq_len(n_cards)) {
-    plot_one(bc_wrapped[ , i], n = n, fontsize = fontsize)
     fname <- paste0(pdf_base, sprintf("%02d", i), ".pdf")
-    filenames <- c(filenames, fname)
     message("  ", fname)
-    dev.print(pdf, fname, width = 7, height = 7)
+    filenames <- c(filenames, fname)
+    pdf(fname, width = 7, height = 7)
+    plot_one(bc_wrapped[ , i], n = n, fontsize = fontsize)
+    dev.off()
   }
   invisible(filenames)
 }
