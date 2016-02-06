@@ -42,13 +42,15 @@ bc <- bingo(8)
 plot(bc)
 ```
 
-Here's what one would look like:
+Here's what one looks like:
 
-![](img/bingo-01.png)
+![](img/bingo-01-superbowl-50-2016.png)
 
 ## Open Data Example
 
-Attribute to <https://twitter.com/fogonwater/status/683785398112260097>
+These squares are taken from an excellent tweet from Chris McDowall ([\@fogonwater](https://twitter.com/fogonwater)):
+
+> For two weeks I noted issues encountered as I used NZ govt data. Today I collected enough to make a bingo card. *[\@fogonwater, January 3, 2016](https://twitter.com/fogonwater/status/683785398112260097)*
 
 ```{r}
 ## see some of the Open Data squares
@@ -61,4 +63,11 @@ bc <- bingo(bs = open_data())
 plot(bc)
 ```
 
+Here's what one looks like:
 
+![](img/bingo-01-open-data.png)
+
+```{r clean-up, include = FALSE}
+crap <- list.files(pattern = "bingo-[0-9]+.pdf")
+file.remove(crap)
+```

@@ -15,18 +15,12 @@ open_data <- function() {
     "duplicate rows",
     "website maze",
     "session has timed out",
-    "merged cells",
     "broken formula",
     "mystery column",
-    "please enable macros",
     "metadata mixed with data",
     "out of date docs",
     ".XLSB",
-    "acronym WTF?",
-    "starred numbers*",
     "assumed knowledge",
-    "PDF tables",
-    "numbers formatted as text",
     "non-standard country names",
     "blank rows",
     "hidden cells",
@@ -35,7 +29,13 @@ open_data <- function() {
     "long fieldnames are long",
     "metadata at end of spreadsheet",
     "arcane codes",
-    "colour as data"
+    "please enable macros",
+    "colour as data",
+    "merged cells",
+    "acronym WTF?",
+    "starred numbers*",
+    "PDF tables",
+    "numbers formatted as text"
 
   )
 }

@@ -38,31 +38,33 @@ bc <- bingo(8)
 ## print them to PDF
 plot(bc)
 #> Writing to file ...
-#>   bingo-01.pdf
-#>   bingo-02.pdf
-#>   bingo-03.pdf
-#>   bingo-04.pdf
-#>   bingo-05.pdf
-#>   bingo-06.pdf
-#>   bingo-07.pdf
-#>   bingo-08.pdf
+#>   ./bingo-01.pdf
+#>   ./bingo-02.pdf
+#>   ./bingo-03.pdf
+#>   ./bingo-04.pdf
+#>   ./bingo-05.pdf
+#>   ./bingo-06.pdf
+#>   ./bingo-07.pdf
+#>   ./bingo-08.pdf
 ```
 
-Here's what one would look like:
+Here's what one looks like:
 
-![](img/bingo-01.png)
+![](img/bingo-01-superbowl-50-2016.png)
 
 Open Data Example
 -----------------
 
-Attribute to <https://twitter.com/fogonwater/status/683785398112260097>
+These squares are taken from an excellent tweet from Chris McDowall ([@fogonwater](https://twitter.com/fogonwater)):
+
+> For two weeks I noted issues encountered as I used NZ govt data. Today I collected enough to make a bingo card. *[@fogonwater, January 3, 2016](https://twitter.com/fogonwater/status/683785398112260097)*
 
 ``` r
 ## see some of the Open Data squares
 tail(open_data())
-#> [1] "circular references"            "split cells"                   
-#> [3] "long fieldnames are long"       "metadata at end of spreadsheet"
-#> [5] "arcane codes"                   "colour as data"
+#> [1] "colour as data"            "merged cells"             
+#> [3] "acronym WTF?"              "starred numbers*"         
+#> [5] "PDF tables"                "numbers formatted as text"
 
 ## make a single Open Data bingo card
 bc <- bingo(bs = open_data())
@@ -70,7 +72,9 @@ bc <- bingo(bs = open_data())
 ## print it
 plot(bc)
 #> Writing to file ...
-#>   bingo-01.pdf
+#>   ./bingo-01.pdf
 ```
 
-![](README-unnamed-chunk-4-1.png)<!-- -->
+Here's what one looks like:
+
+![](img/bingo-01-open-data.png)
