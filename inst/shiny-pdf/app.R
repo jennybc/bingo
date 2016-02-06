@@ -1,5 +1,6 @@
 library(shiny)
 library(shinyjs)
+library(bingo)
 
 getWordsText <- function(text) {
   trimws(strsplit(text, ",")[[1]])
