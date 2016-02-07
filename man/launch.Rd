@@ -4,11 +4,7 @@
 \alias{launch}
 \title{Launch the Shiny app that generates bingo cards}
 \usage{
-launch(format = c("pdf", "html"))
-}
-\arguments{
-\item{format}{Which format to generate the cards (downloadable PDF or
-printable HTML)}
+launch()
 }
 \description{
 Launch the Shiny app that generates bingo cards

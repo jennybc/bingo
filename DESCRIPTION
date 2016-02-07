@@ -1,6 +1,6 @@
 Package: bingo
 Title: Generate Bingo Cards
-Version: 0.0.0.9003
+Version: 0.0.0.9004
 Authors@R: c(
     person("Jennifer", "Bryan", , "jenny@stat.ubc.ca", c("cre", "aut")),
     person("Dean", "Attali", , "daattali@gmail.com", "aut")
