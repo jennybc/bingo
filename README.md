@@ -4,7 +4,7 @@
     -   [SuperBowl Example](#superbowl-example)
     -   ["Open" and Bad Data Examples](#open-and-bad-data-examples)
     -   [Run Shiny apps locally](#run-shiny-apps-locally)
-
+    
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 bingo
 =====
@@ -13,10 +13,7 @@ Generate Bingo cards.
 
 Currently has built-in squares for SuperBowl 50 :football: and data / spreadsheet craziness :chart\_with\_downwards\_trend:. Or you can provide your own text for the squares.
 
-Make printable Bingo cards **without installing anything** via these Shiny apps (included in package, but also available on Dean's server):
-
--   [PDF cards](http://daattali.com/shiny/bingo-pdf/)
--   [HTML cards](http://daattali.com/shiny/bingo-html/)
+Make printable Bingo cards **without installing anything** via [this Shiny app](http://daattali.com/shiny/bingo/) (included in package, but also available on Dean's server).
 
 Feel free to help us make these cards less ugly or to explore new bingo topics! PRs welcome :grin:.
 
@@ -87,7 +84,7 @@ tail(open_data())
 
 ## see some Bad Data squares
 tail(bad_data())
-#> [1] "Spreadsheet has exactly 65,536 rows"           
+#> [1] "Data disguised as formatting"                  
 #> [2] "Ambiguous American date formats, eg 03/04/16"  
 #> [3] "\"Virgin Birth\", ie no provenance"            
 #> [4] "Location of 0°N 0°E, ie \"Null Island\""       
@@ -110,15 +107,11 @@ Here's an Open Data bingo card:
 
 ![](img/bingo-01-open-data.png)
 
-Run Shiny apps locally
-----------------------
+Run Shiny app locally
+---------------------
 
-To run the apps we're running remotely ([PDF version](http://daattali.com/shiny/bingo-pdf/), [HTML version](http://daattali.com/shiny/bingo-html/)) on your own machine, do this:
+To run [the app we're running remotely](http://daattali.com/shiny/bingo/) on your own machine, do this:
 
 ``` r
-## pdf is the default
 launch()
-
-## or go with html
-launch("html")
 ```
