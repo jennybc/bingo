@@ -3,7 +3,7 @@
     -   [Installation](#installation)
     -   [SuperBowl Example](#superbowl-example)
     -   ["Open" and Bad Data Examples](#open-and-bad-data-examples)
-    -   [Run Shiny apps locally](#run-shiny-apps-locally)
+    -   [Run Shiny app locally](#run-shiny-app-locally)
     
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 bingo
