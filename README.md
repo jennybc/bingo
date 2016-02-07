@@ -4,7 +4,7 @@
     -   [SuperBowl Example](#superbowl-example)
     -   ["Open" and Bad Data Examples](#open-and-bad-data-examples)
     -   [Run Shiny app locally](#run-shiny-app-locally)
-    
+
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 bingo
 =====
@@ -13,7 +13,10 @@ Generate Bingo cards.
 
 Currently has built-in squares for SuperBowl 50 :football: and data / spreadsheet craziness :chart\_with\_downwards\_trend:. Or you can provide your own text for the squares.
 
-Make printable Bingo cards **without installing anything** via [this Shiny app](http://daattali.com/shiny/bingo/) (included in package, but also available on Dean's server).
+Make printable Bingo cards **without installing anything** via this Shiny app:
+
+-   <http://daattali.com/shiny/bingo/>
+-   It's also included in the package (see [below](#run-shiny-app-locally)).
 
 Feel free to help us make these cards less ugly or to explore new bingo topics! PRs welcome :grin:.
 
@@ -84,7 +87,7 @@ tail(open_data())
 
 ## see some Bad Data squares
 tail(bad_data())
-#> [1] "Data disguised as formatting"                  
+#> [1] "Spreadsheet has exactly 65,536 rows"           
 #> [2] "Ambiguous American date formats, eg 03/04/16"  
 #> [3] "\"Virgin Birth\", ie no provenance"            
 #> [4] "Location of 0°N 0°E, ie \"Null Island\""       
@@ -98,9 +101,9 @@ bc <- bingo(bs = open_data())
 bc <- bingo(bs = c(open_data(), bad_data()))
 
 ## print it
-plot(bc, dir = "img", pdf_base = "open-data-")
+plot(bc, pdf_base = "open-data-")
 #> Writing to file ...
-#>   img/open-data-01.pdf
+#>   ./open-data-01.pdf
 ```
 
 Here's an Open Data bingo card:

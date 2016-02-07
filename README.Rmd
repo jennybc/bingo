@@ -26,7 +26,10 @@ Generate Bingo cards.
 
 Currently has built-in squares for SuperBowl 50 :football: and data / spreadsheet craziness :chart_with_downwards_trend:. Or you can provide your own text for the squares.
 
-Make printable Bingo cards **without installing anything** via [this Shiny app](http://daattali.com/shiny/bingo/) (included in package, but also available on Dean's server).
+Make printable Bingo cards **without installing anything** via this Shiny app:
+
+  * <http://daattali.com/shiny/bingo/>
+  * It's also included in the package (see [below](#run-shiny-app-locally)).
   
 Feel free to help us make these cards less ugly or to explore new bingo topics! PRs welcome :grin:.
 
@@ -41,7 +44,7 @@ devtools::install_github("jennybc/bingo")
 
 ## SuperBowl Example
 
-```{r fig.show = "hide"}
+```{r}
 library(bingo)
 
 ## see some of the SuperBowl 50 squares
@@ -84,7 +87,7 @@ bc <- bingo(bs = open_data())
 bc <- bingo(bs = c(open_data(), bad_data()))
 
 ## print it
-plot(bc, dir = "img", pdf_base = "open-data-")
+plot(bc, pdf_base = "open-data-")
 ```
 
 Here's an Open Data bingo card:
@@ -92,7 +95,8 @@ Here's an Open Data bingo card:
 ![](img/bingo-01-open-data.png)
 
 ```{r clean-up, include = FALSE}
-crap <- list.files(pattern = "bingo-[0-9]+.pdf")
+crap <- c(list.files(pattern = "bingo-[0-9]+.pdf"),
+          list.files(pattern = "open-data-[0-9]+.pdf"))
 file.remove(crap)
 ```
 
