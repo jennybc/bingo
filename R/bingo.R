@@ -9,9 +9,13 @@
 #'
 #' @examples
 #' bingo()
-bingo <- function(n_cards = 1, words = NULL, n = 5) {
+bingo <- function(n_cards = 1, words, n = 5) {
   stopifnot(n %% 2 == 1)
-  if (is.null(words)) words <- superbowl_50_2016()
+
+  if (missing(words)) {
+    words <- topics[['open-data']]
+  }
+
   words <- vet_squares(words)
   m <- length(words)
   n_sq <- (n ^ 2) - 1

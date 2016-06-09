@@ -56,16 +56,12 @@ function(input, output, session) {
   )
 
   words <- reactive({
-    if (input$uploadType == "superbowl") {
-      words <- superbowl_50_2016()
-    } else if (input$uploadType == "opendata") {
-      words <- open_data()
-    } else if (input$uploadType == "baddata") {
-      words <- bad_data()
-    } else if (input$uploadType == "box") {
+    if (input$uploadType == "box") {
       words <- getWordsText(input$wordsBox)
     } else if (input$uploadType == "file") {
       words <- getWordsFile(input$wordsFile$datapath)
+    } else {
+      words <- topics[[input$uploadType]]
     }
   })
 

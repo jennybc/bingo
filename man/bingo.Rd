@@ -4,7 +4,7 @@
 \alias{bingo}
 \title{Generate bingo cards}
 \usage{
-bingo(n_cards = 1, words = NULL, n = 5)
+bingo(n_cards = 1, words, n = 5)
 }
 \arguments{
 \item{n_cards}{number of cards}
