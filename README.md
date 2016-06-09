@@ -95,10 +95,10 @@ tail(bad_data())
 #> [6] "US zip codes 12345 or 90210"
 
 ## make a single Open Data bingo card
-bc <- bingo(bs = open_data())
+bc <- bingo(words = open_data())
 
 ## make a custom bingo blend from the open and bad data squares
-bc <- bingo(bs = c(open_data(), bad_data()))
+bc <- bingo(words = c(open_data(), bad_data()))
 
 ## print it
 plot(bc, pdf_base = "open-data-")

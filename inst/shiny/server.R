@@ -43,7 +43,7 @@ function(input, output, session) {
         validateSize(words(), size)
 
         # generate the cards
-        cards <- bingo(n_cards = input$numberToMake, bs = words(), n = size)
+        cards <- bingo(n_cards = input$numberToMake, words = words(), n = size)
         filenames <- plot(cards, dir = tempdir(), fontsize = input$textSize)
         wd <- setwd(dirname(filenames[1]))
         zip(file, basename(filenames))

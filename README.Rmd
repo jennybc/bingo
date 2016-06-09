@@ -81,10 +81,10 @@ tail(open_data())
 tail(bad_data())
 
 ## make a single Open Data bingo card
-bc <- bingo(bs = open_data())
+bc <- bingo(words = open_data())
 
 ## make a custom bingo blend from the open and bad data squares
-bc <- bingo(bs = c(open_data(), bad_data()))
+bc <- bingo(words = c(open_data(), bad_data()))
 
 ## print it
 plot(bc, pdf_base = "open-data-")
