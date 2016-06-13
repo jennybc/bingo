@@ -1,0 +1,31 @@
+# "Boring meeting" work bank - from http://bingo.saksena.net/bingo
+
+c(
+  "low-risk",
+  "client",
+  "best practice",
+  "initiative",
+  "vision"
+  "task force",
+  "alternative",
+  "market",
+  "schedule",
+  "milestone",
+  "performance",
+  "brainstorm",
+  "scalable",
+  "synergy",
+  "action item",
+  "passdown",
+  "back-end",
+  "braindump",
+  "cross-platform",
+  "customer",
+  "deliver",
+  "eyeballs",
+  "revenue",
+  "money",
+  "incentive",
+  "leverage",
+  "value-add"
+)
