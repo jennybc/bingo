@@ -5,7 +5,7 @@ c(
   "client",
   "best practice",
   "initiative",
-  "vision"
+  "vision",
   "task force",
   "alternative",
   "market",
