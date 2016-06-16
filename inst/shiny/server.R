@@ -2,7 +2,7 @@ library(shiny)
 library(shinyjs)
 library(bingo)
 
-source("utils.R")
+source("global.R")
 
 function(input, output, session) {
 
