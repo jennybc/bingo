@@ -24,6 +24,9 @@ c(
   "acronym WTF?",
   "starred numbers*",
   "PDF tables",
-  "numbers formatted as text"
-
+  "numbers formatted as text",
+  "metadata expressed as fieldnames",
+  "fieldname EDA",
+  "regex-driven workflow",
+  "named region non-sequiturs"
 )
