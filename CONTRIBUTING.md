@@ -5,4 +5,4 @@ We happily accept contributions to our collection of bingo cards! If you'd like 
 - Optional: at the top of the file, add your name and a short description of the card as a comment
 - You can look at the [existing examples](./inst/topics/) 
 
-We'll try to be as responsive as possible in reviewing and accepting pull requests. We appreciate your contributions!  
+We'll try to be as responsive as possible in reviewing and accepting pull requests. We appreciate your contributions!

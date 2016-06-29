@@ -81,9 +81,9 @@ Use `topics[["bad-data"]]` to get squares inspired by the [Quartz guide to bad d
 ``` r
 ## see some Open Data squares
 tail(topics[["open-data"]])
-#> [1] "colour as data"            "merged cells"             
-#> [3] "acronym WTF?"              "starred numbers*"         
-#> [5] "PDF tables"                "numbers formatted as text"
+#> [1] "PDF tables"                       "numbers formatted as text"       
+#> [3] "metadata expressed as fieldnames" "fieldname EDA"                   
+#> [5] "regex-driven workflow"            "named region non-sequiturs"
 
 ## see some Bad Data squares
 tail(topics[["bad-data"]])
@@ -118,4 +118,3 @@ To run [the app we're running remotely](http://daattali.com/shiny/bingo/) on you
 ``` r
 launch()
 ```
-adding a line
