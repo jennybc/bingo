@@ -4,3 +4,4 @@
 ^README-.*\.png$
 ^bingo-.*\.pdf$
 ^img$
+^CONTRIBUTING\.md$

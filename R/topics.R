@@ -1,4 +1,4 @@
-# Environment containing all the word lists of all topics
+#' Environment containing all the word lists of all topics
 #' @export
 topics <- new.env(parent = emptyenv())
 
