@@ -1,6 +1,5 @@
 library(shiny)
 library(shinyjs)
-library(bingo)
 
 source("global.R")
 
@@ -43,7 +42,7 @@ function(input, output, session) {
         validateSize(words(), size)
 
         # generate the cards
-        cards <- bingo(n_cards = input$numberToMake, words = words(), n = size)
+        cards <- bingo::bingo(n_cards = input$numberToMake, words = words(), n = size)
         filenames <- plot(cards, dir = tempdir(), fontsize = input$textSize)
         wd <- setwd(dirname(filenames[1]))
         zip(file, basename(filenames))
@@ -61,7 +60,7 @@ function(input, output, session) {
     } else if (input$uploadType == "file") {
       words <- getWordsFile(input$wordsFile$datapath)
     } else {
-      words <- topics[[input$uploadType]]
+      words <- bingo::get_topic(input$uploadType)
     }
   })
 

@@ -1,6 +1,31 @@
-#' Environment containing all the word lists of all topics
-#' @export
+# Environment containing all the word lists of all topics
 topics <- new.env(parent = emptyenv())
+
+#' Get all bingo card topics
+#'
+#' @return A character vector containing the names of all the bingo card topics
+#' @export
+#'
+#' @examples
+#' get_topics()
+get_topics <- function() {
+  ls(topics)
+}
+
+#' Get the words of a bingo card topic
+#'
+#' @return A character vector containing all the possible words of a bingo card
+#' topic
+#' @export
+#'
+#' @examples
+#' get_topic("open-data")
+get_topic <- function(topic) {
+  if (!topic %in% get_topics()) {
+    stop("Topic '", topic, "' does not exist", call. = FALSE)
+  }
+  topics[[topic]]
+}
 
 # When the package loads, load all the topics words
 .onLoad <- function(libname, pkgname) {

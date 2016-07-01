@@ -2,5 +2,6 @@
 
 S3method(plot,bingo)
 export(bingo)
+export(get_topic)
+export(get_topics)
 export(launch)
-export(topics)

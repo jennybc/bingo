@@ -1,5 +1,4 @@
 library(shiny)
-library(bingo)
 
 fluidPage(
   shinyjs::useShinyjs(),
@@ -23,7 +22,7 @@ fluidPage(
     ),
     numericInput("numberToMake", "Number of cards to generate", 5, 1),
     selectInput("uploadType", "Phrases to use",
-                c(ls(topics),
+                c(bingo::get_topics(),
                   "(Type phrases into a box)" = "box",
                   "(Upload text file)" = "file")),
     div(
