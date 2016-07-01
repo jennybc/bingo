@@ -18,8 +18,8 @@ fluidPage(
         "Code", a("on GitHub", href = "https://github.com/jennybc/bingo")
     ),
     selectInput("cardType", NULL,
-                c("Create PDF cards to download" = "pdf",
-                  "Create HTML cards to print" = "html")
+                c("Create HTML cards to print" = "html",
+                  "Create PDF cards to download" = "pdf")
     ),
     numericInput("numberToMake", "Number of cards to generate", 5, 1),
     selectInput("uploadType", "Phrases to use",
