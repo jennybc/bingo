@@ -37,7 +37,7 @@ SuperBowl Example
 library(bingo)
 
 ## see some of the SuperBowl 50 squares
-tail(topics$football)
+tail(get_topic("football"))
 #> [1] "Shot of Golden Gate Bridge"                
 #> [2] "\"Silicon Valley and tech\" blah blah blah"
 #> [3] "Mike Carey is WRONG"                       
@@ -70,23 +70,23 @@ Here's what one looks like:
 
 We offer two sets of squares inspired by the ~~pain~~ joy of dealing with [`#otherpeoplesdata`](https://twitter.com/search?q=%23otherpeoplesdata&src=tyah)
 
-Use `topics[["open-data"]]` to get squares based on this tweet from Chris McDowall:
+Use `get_topic("open-data")` to get squares based on this tweet from Chris McDowall:
 
 > For two weeks I noted issues encountered as I used NZ govt data. Today I collected enough to make a bingo card. *[@fogonwater, January 3, 2016](https://twitter.com/fogonwater/status/683785398112260097)*
 
-Use `topics[["bad-data"]]` to get squares inspired by the [Quartz guide to bad data](https://github.com/Quartz/bad-data-guide):
+Use `get_topic("bad-data")` to get squares inspired by the [Quartz guide to bad data](https://github.com/Quartz/bad-data-guide):
 
 > An exhaustive reference to problems seen in real-world data along with suggestions on how to resolve them.... Most of these problems can be solved. Some of them can't be solved and that means you should not use the data. Others can't be solved, but with precautions you can continue using the data.
 
 ``` r
 ## see some Open Data squares
-tail(topics[["open-data"]])
+tail(get_topic("open-data"))
 #> [1] "PDF tables"                       "numbers formatted as text"       
 #> [3] "metadata expressed as fieldnames" "fieldname EDA"                   
 #> [5] "regex-driven workflow"            "named region non-sequiturs"
 
 ## see some Bad Data squares
-tail(topics[["bad-data"]])
+tail(get_topic("bad-data"))
 #> [1] "Data disguised as formatting"                  
 #> [2] "Ambiguous American date formats, eg 03/04/16"  
 #> [3] "\"Virgin Birth\", ie no provenance"            
@@ -95,10 +95,10 @@ tail(topics[["bad-data"]])
 #> [6] "US zip codes 12345 or 90210"
 
 ## make a single Open Data bingo card
-bc <- bingo(words = topics[["open-data"]])
+bc <- bingo(words = get_topic("open-data"))
 
 ## make a custom bingo blend from the open and bad data squares
-bc <- bingo(words = c(topics[["open-data"]], topics[["bad-data"]]))
+bc <- bingo(words = c(get_topic("open-data"), get_topic("bad-data")))
 
 ## print it
 plot(bc, pdf_base = "open-data-")

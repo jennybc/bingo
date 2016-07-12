@@ -1,6 +1,6 @@
 Package: bingo
 Title: Generate Bingo Cards
-Version: 0.0.0.9006
+Version: 0.0.0.9007
 Authors@R: c(
     person("Jennifer", "Bryan", , "jenny@stat.ubc.ca", c("cre", "aut")),
     person("Dean", "Attali", , "daattali@gmail.com", "aut")
@@ -12,7 +12,7 @@ Depends:
     R (>= 3.2.1)
 License: MIT + file LICENSE
 LazyData: true
-RoxygenNote: 5.0.1.9000
+RoxygenNote: 5.0.1
 Suggests:
     testthat,
     shiny,
