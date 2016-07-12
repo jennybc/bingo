@@ -11,7 +11,7 @@ bingo
 
 Generate Bingo cards.
 
-Currently has built-in squares for SuperBowl 50 :football: and data / spreadsheet craziness :chart\_with\_downwards\_trend:. Or you can provide your own text for the squares.
+Currently has built-in squares for SuperBowl 50 :football: and data / spreadsheet craziness :chart\_with\_downwards\_trend: and more. Or you can provide your own text for the squares.
 
 Make printable Bingo cards **without installing anything** via this Shiny app:
 
