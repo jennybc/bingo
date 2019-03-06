@@ -1,0 +1,39 @@
+---
+title: "Amazon Animals Bingo"
+author: "Carlisha Hall"
+date: "March 5, 2019"
+output: html_document
+---
+
+##Bingo card for Amazon Animals 
+### Author : Carlisha Hall
+
+```{r}
+c(
+"Jaguar",
+"Cougar",
+"Ocelot",
+"Tapir",
+"Capybara",
+"Anaconda" ,
+"Boa" , 
+"Caiman", 
+"Poison Dart Frog",
+"Harpy Eagle",
+"Macaw",
+"Spider monkey",
+"Howler monkeys",
+"Piranha",
+"Orangutan",
+"Sloth",
+"River Dolphin",
+"Golden Lion Tamarin",
+"Giant Armadillo",
+"Giant River Otter",
+"Spectacled Owl",
+"South American River Turtle",
+"Mata Mata",
+"Bullet Ant",
+"Arapaima"
+) 
+```
