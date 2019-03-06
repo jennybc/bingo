@@ -1,0 +1,36 @@
+# Japanese Mange in Weekly Syonen Jump
+# Authors (Toshiyuki Bandai):
+
+c (
+"Black Clover",
+"My Hero Academia",
+"Haikyu!!",
+"Food Wars!: Shokugeki no Soma",
+"Dr. Stone",
+"One Piece",
+"Dragon Ball",
+"Hikaru no Go",
+"Bleach",
+"Yu-Gi-Oh!",
+"Buso Renkin",
+"Assassination Classroom",
+"Death Note",
+"Rurouni Kenshin",
+"Psyren",
+"Nisekoi",
+"D.Grey-man",
+"Kuroko's Basketball",
+"The Prince of Tennis",
+"Toriko",
+"Dr. Slump",
+"Black Cat",
+"Bakuman",
+"Naruto",
+"Rokudenashi Blues",
+"Yu Yu Hakusho",
+"Hunter x Hunter",
+"Fist of the North Star",
+"Captain Tsubasa",
+"JoJo's Bizarre Adventure",
+"Slam Dunk"
+)
