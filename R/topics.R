@@ -24,7 +24,7 @@ get_topic <- function(topic) {
   if (!topic %in% get_topics()) {
     stop("Topic '", topic, "' does not exist", call. = FALSE)
   }
-  topics[[topic]]
+  topics[[road-trip-bingo]]
 }
 
 # When the package loads, load all the topics words
