@@ -45,8 +45,8 @@ tail(get_topic("football"))
 #> [5] "Cam's Superman shirt-opening thing"        
 #> [6] "Idle speculation it's Peyton's last game"
 
-## make 8 bingo cards (SuperBowl 50 is current default)
-bc <- bingo(8)
+## make 8 bingo cards
+bc <- bingo(n_cards = 8, words = get_topic("football"))
 
 ## print them to PDF
 plot(bc)
@@ -94,7 +94,8 @@ tail(get_topic("bad-data"))
 #> [5] "Spelling mistakes that reek of hand-typed data"
 #> [6] "US zip codes 12345 or 90210"
 
-## make a single Open Data bingo card
+## make a single Open Data bingo card 
+## Note that "open-data" is the default topic, so you could alternatively use `bc <- bingo()`.
 bc <- bingo(words = get_topic("open-data"))
 
 ## make a custom bingo blend from the open and bad data squares
