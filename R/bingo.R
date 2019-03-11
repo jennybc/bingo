@@ -13,7 +13,7 @@ bingo <- function(n_cards = 1, words, n = 5) {
   stopifnot(n %% 2 == 1)
 
   if (missing(words)) {
-    words <- topics[['open-data']]
+    words <- topics[['football']]
   }
 
   words <- vet_squares(words)
