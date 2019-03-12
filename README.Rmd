@@ -47,8 +47,8 @@ library(bingo)
 ## see some of the SuperBowl 50 squares
 tail(get_topic("football"))
 
-## make 8 bingo cards (SuperBowl 50 is current default)
-bc <- bingo(8)
+## make 8 bingo cards
+bc <- bingo(n_cards = 8, words = get_topic("football"))
 
 ## print them to PDF
 plot(bc)
@@ -78,6 +78,7 @@ tail(get_topic("open-data"))
 tail(get_topic("bad-data"))
 
 ## make a single Open Data bingo card
+## Note that "open-data" is the default topic, so you could alternatively use: bc <- bingo().
 bc <- bingo(words = get_topic("open-data"))
 
 ## make a custom bingo blend from the open and bad data squares

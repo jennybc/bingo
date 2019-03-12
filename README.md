@@ -94,7 +94,7 @@ tail(get_topic("bad-data"))
 #> [5] "Spelling mistakes that reek of hand-typed data"
 #> [6] "US zip codes 12345 or 90210"
 
-## make a single Open Data bingo card 
+## make a single Open Data bingo card
 ## Note that "open-data" is the default topic, so you could alternatively use: bc <- bingo().
 bc <- bingo(words = get_topic("open-data"))
 
