@@ -1,7 +1,7 @@
 # Japanese Mange in Weekly Syonen Jump
 # Authors (Toshiyuki Bandai):
 
-c (
+c(
 "Black Clover",
 "My Hero Academia",
 "Haikyu!!",
