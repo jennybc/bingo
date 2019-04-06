@@ -7,6 +7,8 @@
 status](https://travis-ci.org/jennybc/bingo.svg?branch=master)](https://travis-ci.org/jennybc/bingo)
 [![Codecov test
 coverage](https://codecov.io/gh/jennybc/bingo/branch/master/graph/badge.svg)](https://codecov.io/gh/jennybc/bingo?branch=master)
+[![AppVeyor build
+status](https://ci.appveyor.com/api/projects/status/github/jennybc/bingo?branch=master&svg=true)](https://ci.appveyor.com/project/jennybc/bingo)
 <!-- badges: end -->
 
 # bingo

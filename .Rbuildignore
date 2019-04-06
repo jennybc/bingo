@@ -7,3 +7,4 @@
 ^img$
 ^CONTRIBUTING\.md$
 ^codecov\.yml$
+^appveyor\.yml$
