@@ -6,6 +6,9 @@
 \usage{
 get_topic(topic)
 }
+\arguments{
+\item{topic}{Name of a topic (a string)}
+}
 \value{
 A character vector containing all the possible words of a bingo card
 topic
@@ -16,4 +19,3 @@ Get the words of a bingo card topic
 \examples{
 get_topic("open-data")
 }
-
