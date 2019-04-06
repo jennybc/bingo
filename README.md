@@ -119,3 +119,7 @@ To run [the app we're running remotely](http://daattali.com/shiny/bingo/) on you
 ``` r
 launch()
 ```
+
+<!-- badges: start -->
+  [![Travis build status](https://travis-ci.org/AmeliaMN/bingo.svg?branch=master)](https://travis-ci.org/AmeliaMN/bingo)
+<!-- badges: end -->
