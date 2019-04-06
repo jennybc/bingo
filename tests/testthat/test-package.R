@@ -5,16 +5,16 @@ test_that("duplicate squares are removed", {
   expect_identical(c("a", "b"), vet_squares(x))
 })
 
-topic_len_gte24 <- function(){
-  topics <- get_topics()
-  topic_len <- c()
-  for (t in topics){
-    topic_len[t] <- length(get_topic(t))
+test_that("each topic contains at least 24 unique values", {
+  expect_topic_length <- function(topic) {
+    nt <- length(get_topic(topic))
+    expect(
+      nt >= 24,
+      sprintf("'%s' has length %i", topic, nt)
+    )
+    invisible(topic)
   }
-  return(ifelse(all(topic_len > 24), TRUE, FALSE))
-}
 
-test_that("each topic contains 24+ unique values", {
-
-  expect_true(topic_len_gte24(), "Submitted topic has <=24 entries")
+  topics <- get_topics()
+  for (t in topics) expect_topic_length(t)
 })
