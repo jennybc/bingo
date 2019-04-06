@@ -20,5 +20,8 @@ c("No limitations described",
   "Unclear or missing baseline characteristics/Table 1",
   "Improper use of statistical terms",
   "Not clear if significant results are clinically or statistically significant",
-  "Measured values expressed to the appropriate precision"
+  "Measured values expressed to the appropriate precision",
+  "R packages not cited",
+  "Need to cite more papers by [me]",
+  "Unclear significance of work"
 )
