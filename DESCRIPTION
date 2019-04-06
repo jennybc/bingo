@@ -8,16 +8,18 @@ Authors@R: c(
 Description: Generate bingo cards for fun and profit. Comes with built-in
     bingo squares for SuperBowl 50 and 'open' data / spreadsheet hell. You
     can also provide your own squares. Comes with a Shiny app.
+License: MIT + file LICENSE
 Depends:
     R (>= 3.2.1)
-License: MIT + file LICENSE
-LazyData: true
-RoxygenNote: 6.1.1
-Suggests:
-    testthat,
-    shiny,
-    shinyjs
 Imports:
     grDevices,
     grid,
     utils
+Suggests:
+    covr,
+    shiny,
+    shinyjs,
+    testthat
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1

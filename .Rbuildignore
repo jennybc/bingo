@@ -6,3 +6,4 @@
 ^bingo-.*\.pdf$
 ^img$
 ^CONTRIBUTING\.md$
+^codecov\.yml$
