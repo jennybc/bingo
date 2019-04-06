@@ -14,6 +14,8 @@ get_topics <- function() {
 
 #' Get the words of a bingo card topic
 #'
+#' @param topic Name of a topic (a string)
+#'
 #' @return A character vector containing all the possible words of a bingo card
 #' topic
 #' @export
