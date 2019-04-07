@@ -22,4 +22,3 @@ Generate bingo cards
 \examples{
 bingo()
 }
-

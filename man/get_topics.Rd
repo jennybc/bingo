@@ -15,4 +15,3 @@ Get all bingo card topics
 \examples{
 get_topics()
 }
-

@@ -9,4 +9,3 @@ launch()
 \description{
 Launch the Shiny app that generates bingo cards
 }
-

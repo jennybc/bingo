@@ -1,3 +1,4 @@
+^\.travis\.yml$
 ^.*\.Rproj$
 ^\.Rproj\.user$
 ^README\.Rmd$
@@ -5,3 +6,5 @@
 ^bingo-.*\.pdf$
 ^img$
 ^CONTRIBUTING\.md$
+^codecov\.yml$
+^appveyor\.yml$
