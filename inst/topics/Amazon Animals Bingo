@@ -8,7 +8,7 @@ output: html_document
 ##Bingo card for Amazon Animals 
 ### Author : Carlisha Hall
 
-```{r}
+
 c(
 "Jaguar",
 "Cougar",
@@ -36,4 +36,4 @@ c(
 "Bullet Ant",
 "Arapaima"
 ) 
-```
+
