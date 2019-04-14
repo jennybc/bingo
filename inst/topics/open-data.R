@@ -30,5 +30,6 @@ c(
   "regex-driven workflow",
   "named region non-sequiturs",
   "dates formatted as numbers",
-  "ununiform date format"
+  "ununiform date format",
+  "scanned tables"
 )
