@@ -20,8 +20,8 @@ c("normal fault",
   "till",
   "glacial outwash",
   "quaternary sediment",
-  "roadcut"
   "quartz vug",
   "calcite vug",
-  "stromatolite"
+  "stromatolite",
+  "cars honking at roadcut"
 )
