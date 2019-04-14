@@ -23,5 +23,7 @@ c("Someone forgets they are on mute",
   "Hard stop",
   "Switching between calls",
   "Someone takes another call and forgets to mute",
-  "Keyboard sounds"
+  "Keyboard sounds",
+  "Moves the microphone",
+  "Someone is eating"
   )
