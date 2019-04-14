@@ -24,5 +24,6 @@ c(
   "Snapdragon",
   "Violet",
   "Cosmos",
-  "Calendula"
+  "Calendula",
+  "Poopy diaper"
 )
