@@ -66,8 +66,13 @@ c(
   "Mike Carey is WRONG",
   "Unexpected artist joins Beyonc\u00E9",
   "Cam's Superman shirt-opening thing",
-  "Idle speculation it's Peyton's last game"
-)
+  "Idle speculation it's Peyton's last game",
+
+  ##Matt adds
+  "His shoe fell off",
+  "Oops...slipped in the mud",
+  "Wow...got his feet tangled on that one",
+  "Saved by the shoestring")
 
 ## lying around from past
 ## Troy Aikman says something inane
