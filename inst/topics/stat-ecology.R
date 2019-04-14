@@ -37,5 +37,6 @@ c("population dynamics",
   "exponential growth",
   "generalized linear model",
   "logistic regression",
-  "heteroscedastic"
+  "heteroscedastic",
+  "ordination"
 )
