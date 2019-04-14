@@ -27,5 +27,7 @@ c(
   "money",
   "incentive",
   "leverage",
-  "value-add"
+  "value-add",
+  "policy",
+  "deliverable"
 )
