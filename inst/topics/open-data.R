@@ -29,5 +29,6 @@ c(
   "fieldname EDA",
   "regex-driven workflow",
   "named region non-sequiturs",
-  "password-protected files"
+  "password-protected files",
+  "screenshot of report"
 )
