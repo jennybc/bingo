@@ -38,5 +38,6 @@ c("population dynamics",
   "generalized linear model",
   "logistic regression",
   "heteroscedastic",
-  "ordination"
+  "ordination",
+  "community detection"
 )
