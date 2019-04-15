@@ -25,5 +25,7 @@ c(
   "Liberty",
   "Flag",
   "Patriot",
-  "Summer"
+  "Summer",
+  "County fairground",
+  "Lemonade"
 )

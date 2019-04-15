@@ -28,5 +28,7 @@ c(
   "metadata expressed as fieldnames",
   "fieldname EDA",
   "regex-driven workflow",
-  "named region non-sequiturs"
+  "named region non-sequiturs",
+  "password-protected files",
+  "screenshot of report"
 )
