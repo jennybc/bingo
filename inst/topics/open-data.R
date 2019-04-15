@@ -31,5 +31,7 @@ c(
   "named region non-sequiturs",
   "dates formatted as numbers",
   "ununiform date format",
-  "scanned tables"
+  "scanned tables",
+  "password-protected files",
+  "screenshot of report"
 )
