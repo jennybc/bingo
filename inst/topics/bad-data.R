@@ -28,5 +28,7 @@ c(
   "\"Virgin Birth\", ie no provenance",
   "Location of 0\u00B0N 0\u00B0E, ie \"Null Island\"",
   "Spelling mistakes that reek of hand-typed data",
-  "US zip codes 12345 or 90210"
+  "US zip codes 12345 or 90210",
+  "There's no unique identifier",
+  "Password-protected data"
 )
