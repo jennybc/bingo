@@ -5,7 +5,6 @@ test_that("duplicate squares are removed", {
   expect_identical(c("a", "b"), vet_squares(x))
 })
 
-
 test_that("each topic contains at least 24 unique values", {
   expect_topic_length <- function(topic) {
     nt <- length(get_topic(topic))
