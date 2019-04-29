@@ -1,4 +1,7 @@
-c("Someone forgets they are on mute",
+c("Can you see my screen?",
+  "Can you hear me?",
+  "Could everyone mute their phones?",
+  "Someone forgets they are on mute",
   "I'm getting an echo",
   "Laggy screen",
   "Who just joined?",
@@ -23,5 +26,7 @@ c("Someone forgets they are on mute",
   "Hard stop",
   "Switching between calls",
   "Someone takes another call and forgets to mute",
-  "Keyboard sounds"
+  "Keyboard sounds",
+  "Moves the microphone",
+  "Someone is eating"
   )

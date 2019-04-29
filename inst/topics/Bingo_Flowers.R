@@ -24,5 +24,7 @@ c(
   "Snapdragon",
   "Violet",
   "Cosmos",
-  "Calendula"
+  "Calendula",
+  "Azalea",
+  "Begonia"
 )

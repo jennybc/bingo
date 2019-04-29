@@ -27,5 +27,13 @@ c(
   "money",
   "incentive",
   "leverage",
-  "value-add"
+  "value-add",
+  "PUMA (please use more acronyms)",
+  "committee",
+  "mute the call",
+  "forgot to mute the call",
+  "at the table",
+  "guru",
+  "unicorn",
+  "transformative"
 )
