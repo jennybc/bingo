@@ -1,0 +1,28 @@
+## inspired by https://staff.tumblr.com/post/150094456055/dorm-room-bingo
+# issue 58
+
+c("chat noir poster",
+  "mint edition infinite jest",
+  "dvds",
+  "terrible hamper",
+  "plug-in air freshener",
+  "doomed printer",
+  "fear & loathing poster",
+  "christmas lights (the bad kind)",
+  "soil",
+  "framed quote",
+  "klimt",
+  "decorative wall initial",
+  "this basket",
+  "christmas lights (the cute kind)",
+  "vornado",
+  "awful lamp",
+  "eternal sunshine poster",
+  "bag",
+  "dusty old tea",
+  "power strip",
+  "t-shirt from a bank",
+  "well-meaning bottle",
+  "lotion",
+  "plastic hangers",
+  "headphones")
