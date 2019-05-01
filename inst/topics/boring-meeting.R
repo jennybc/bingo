@@ -35,5 +35,8 @@ c(
   "at the table",
   "guru",
   "unicorn",
-  "transformative"
+  "transformative",
+  "policy",
+  "deliverable
 )
+

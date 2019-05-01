@@ -28,5 +28,6 @@ c("Can you see my screen?",
   "Someone takes another call and forgets to mute",
   "Keyboard sounds",
   "Moves the microphone",
-  "Someone is eating"
+  "Someone is eating", 
+  "Someone coughs directly into the microphone"
   )
