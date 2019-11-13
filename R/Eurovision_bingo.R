@@ -1,4 +1,4 @@
-#Eurovision Bingo (for use in the grand final, because certain cells pertain to voting results)
+#Eurovision Bingo (for usein the grand final, because certain cells pertain to voting results)
 c("Costume change/reveal",
   "Multilingual song",
   "Wink at camera",
