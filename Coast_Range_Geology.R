@@ -22,5 +22,6 @@ c("serpentinite",
   "high-grade metamorphism",
   "graywacke",
   "Miocene",
-  "stream terraces"
+  "stream terraces",
+  "poison oak"
 )
