@@ -23,5 +23,4 @@ c("serpentinite",
   "graywacke",
   "Miocene",
   "stream terraces",
-  "poison oak"
 )
