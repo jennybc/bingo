@@ -1,0 +1,27 @@
+# Han Guo
+# A bingo card with countries' names
+
+c("Saudi Arabia",
+  "Azerbaijan",
+  "Rwanda",
+  "Curaçao",
+  "Côte d'Ivoire",
+  "Lao People's Democratic Republic",
+  "Niue",
+  "Algeria",
+  "Georgia",
+  "Puerto Rico",
+  "Chile",
+  "United States of America",
+  "Pakistan",
+  "Cook Islands",
+  "Haiti",
+  "Colombia",
+  "Jamaica",
+  "Belgium",
+  "Barbados",
+  "Afghanistan",
+  "Mexico",
+  "France",
+  "Korea Republic of",
+  "Estonia")
