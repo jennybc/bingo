@@ -46,3 +46,4 @@ get_topic <- function(topic) {
     })
   })
 }
+
