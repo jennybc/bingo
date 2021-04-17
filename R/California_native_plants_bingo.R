@@ -1,4 +1,4 @@
-#Native PLants of California (for usein the grand final, because certain cells pertain to voting results)
+#Native PLants of California (Go pollinitors!)
 c("Sticky Monkey Flower",
   "Yarrow",
   "Valley oak",
