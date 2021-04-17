@@ -1,4 +1,4 @@
-#Native PLants of California (Go pollinitors!)
+#Native PLants of California (Go pollinators!)
 c("Sticky Monkey Flower",
   "Yarrow",
   "Valley oak",
