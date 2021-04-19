@@ -1,0 +1,28 @@
+# Author: Spencer Cole
+# Topic: Buzzwords/Phrases in Scientific Writing
+
+c('machine-learning',
+  'significant',
+  'robust',
+  'open-source',
+  'empirical',
+  'potential',
+  'highlight',
+  'more data is needed',
+  'dynamic',
+  'rich history',
+  'interdisciplinary',
+  'global-scale',
+  'decision-support',
+  'anthropogenic',
+  'framework',
+  'uncertainty',
+  'mitigation',
+  'interesting',
+  'stochastic',
+  'deterministic',
+  'novel',
+  'we present...',
+  'sensitivity analysis',
+  'the authors suggest...',
+)
