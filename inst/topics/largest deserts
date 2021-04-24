@@ -1,0 +1,31 @@
+## Aim : bingo card proposal for largest deserts in the world
+		## Author : Maryam Nematian
+		c(
+		  "Antarctica",
+		  "Sahara",
+		  "Arctic",
+		  "Australian Desert",
+		  "Arabian Desert",
+		  "Gobi Desert",
+		  "Kalahari Desert",
+		  "Patagonian Desert",
+		  "Syrian Desert",
+		  "Great Basin Desert",
+		  "Chihuahuan Desert",
+		  "Karakum Desert",
+		  "Colorado Plateau",
+		  "Sonoran Desert",
+		  "Kyzylkum Desert",
+		  "Taklamakan Desert",
+		  "Ogaden Desert",
+		  "Thar Desert",
+		  "Puntland Desert",
+		  "Ustyurt Plateau",
+		  "Guban Desert",
+		  "Namib Desert",
+		  "Dasht-e Margo",
+		  "Registan Desert",
+		  "Dasht-e Kavir",
+		  "Dasht-e Loot", 
+		)
+
