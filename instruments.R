@@ -1,0 +1,30 @@
+## Aim : Bingo Card Proposal for Instruments
+## Author : Jacob Nesslage
+c(
+  "Guitar",
+  "Synthesizer",
+  "Bass Guitar",
+  "Drums",
+  "Saxophone",
+  "Clarinet",
+  "Flute",
+  "Oboe",
+  "Trumpet",
+  "Trombone",
+  "Bells",
+  "Tympani",
+  "Piano",
+  "Organ",
+  "Marimba",
+  "Contrabass",
+  "Bassoon",
+  "Maracas",
+  "Harp",
+  "Violin",
+  "Cello",
+  "Viola",
+  "Cymbals",
+  "Dulcimer",
+  "Didgeridoo",
+  "Djembe"
+)
