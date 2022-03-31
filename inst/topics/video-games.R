@@ -1,0 +1,30 @@
+## Aim : bingo card proposal for video games
+## Author : Undrakh Bayarsaikhan
+c(
+  "Fruit Ninja",
+  "Sonic",
+  "Cooking Mama",
+  "Galaga",
+  "Elder Scrolls",
+  "Tony Hawk's Pro Skater",
+  "Guitar Hero",
+  "Among Us",
+  "Fallout",
+  "Kid Icarus",
+  "Harvest Moon",
+  "Spyro",
+  "Legend of Zelda",
+  "Sims",
+  "Skyrim",
+  "Beat Saber",
+  "Final Fantasy",
+  "Kirby",
+  "World of Warcraft",
+  "Portal",
+  "Destiny",
+  "Earthbound",
+  "Donkey Kong",
+  "Candy Crush",
+  "Need For Speed",
+  "Mario
+)
