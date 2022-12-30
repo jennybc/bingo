@@ -1,19 +1,22 @@
-## Aim : bingo card proposal for "The Adventures of Tintin" characters in 2 languages (French, English)
+## Aim : bingo card proposal for "The Adventures of Tintin" characters in French
 ## Author : Layal C. Lettry
 ## Source: https://www.tintin.com/fr/characters
 
 # French
 c(
+  # Main Characters
   "Tintin",
   "Milou",
   "Capitaine Haddock",
   "Professeur Tournesol",
   "Dupond et Dupont",
   "Nestor",
+  # Friends
   "Bianca Castafiore",
   "Igor Wagner",
   "Irma",
   "Oliveira da Figueira",
+  # Ancestors
   "François de Hadoque",
   "Rackham le Rouge",
   # Gangsters
@@ -34,5 +37,3 @@ c(
   "Tchang",
   "Zorino"
 )
-
-
