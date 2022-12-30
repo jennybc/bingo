@@ -1,5 +1,5 @@
-## Aim : bingo card proposal for "The Adventures of Tintin" characters in French
-## Author : Layal C. Lettry
+## Aim: bingo card proposal for "The Adventures of Tintin" characters in French
+## Author: Layal C. Lettry
 ## Source: https://www.tintin.com/fr/characters
 
 # French
