@@ -4,8 +4,7 @@
 \alias{plot.bingo}
 \title{Plot bingo cards}
 \usage{
-\method{plot}{bingo}(x, dir = ".", fontsize = 14,
-  pdf_base = "bingo-", ...)
+\method{plot}{bingo}(x, dir = ".", fontsize = 14, pdf_base = "bingo-", ...)
 }
 \arguments{
 \item{x}{a \code{\link{bingo}} object containing one or more bingo cards}
